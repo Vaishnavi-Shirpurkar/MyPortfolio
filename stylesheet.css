@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    font-family: "Verdana, sans-serif";
+    background-color: #f1f1f1;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: 	rgb(56,56,56);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  .header-left {
+    float: left;
+    color: rgb(253, 137, 94);
+    font-style: italic;
+    
+    padding-bottom: 10px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    font-family: Verdana, sans-serif;  
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+
+  
+
+
+  /*hi*/
+  .top-wrapper {
+    background-image: url("image/head\ img.jpg");
+    padding: 250px 0 250px 0;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 20px; 
+  }
+
+
+  /*end*/
+
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-size:50px; font-weight:bold
+  }
+  .top-wrapper h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .heading{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+    text-align: left;
+  }
+ 
+
+  /*about */
+  .about{
+        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+        width: 700px;
+       height: 600px;
+       background: #f8f5f5;
+       border-radius: 25px;
+       box-shadow: 0 0 40px -10px rgb(177, 175, 175);
+      margin: calc(50vh - 220px) auto;
+      padding: 0px 30px;
+      max-width: calc(100vw - 40px);
+      box-sizing: border-box;
+      }
+
+      .about img{
+          float: current;
+          border-radius: 150%;
+          padding-right: 15px;  
+          border: 2px solid black;
+          
+      }
+  
+      .about h1{
+        border-bottom: 3px solid  coral;
+        color: black;
+      }
+      .about h3{
+        margin-left:  auto;
+        margin-right:  auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(71, 69, 69);
+        padding-right: 15px; 
+        /*padding-left: 200px;*/
+        padding: auto;
+      }
+
+  
+
+      /*about end*/
+ 
+
+  /* skill css start*/
+  .skill{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;  
+    text-align: center;
+    background: #f5f2f2;
+    width: 1000px;
+    height: auto;
+       border-radius: 25px;
+       box-shadow: 0 0 40px -10px rgb(177, 175, 175);
+      margin: calc(50vh - 220px) auto;
+      padding: 20px 30px;
+      max-width: calc(100vw - 40px);
+      box-sizing: border-box;
+  }
+
+.skill h1{
+    border-bottom: 3px solid  coral;
+    color: black;
+}
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin: auto;
+  }
+  .lesson-icon:hover{
+    box-shadow: 0 0 3px 3px coral;
+  }
+  
+  /*skill css end*/
+
+
+  /* Project Css*/
+  .main {
+    max-width: 1000px;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    border-radius: 25px;
+      
+       box-shadow: 0 0 40px -10px rgb(221, 214, 214);
+      margin: calc(50vh - 220px) auto;
+      padding: 20px 30px;
+      max-width: calc(100vw - 40px);
+      box-sizing: border-box;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .main h1{
+     border-bottom: 3px solid  coral;
+    color: black;
+  }
+
+
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 3px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    border-radius: 25px;
+    font-family: Verdana, sans-serif;
+    background-color: #f5f2f2;
+    padding: 10px;
+    margin-right: 50px;
+    border: 2px solid rgb(88, 70, 70);
+  }
+  .content img {
+    border: 2px solid #555;
+}
+.content:hover{
+  box-shadow: 0 0 4px 4px rgba(94, 44, 3, 0.5);
+}
+
+
+ .btn {
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+  width: 90px;
+  
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ .btn:hover {
+  background-color: carol;
+}
+
+  
+
+  /*Project css end */
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  
+  .form {
+    width: 600px;
+    height: 500px;
+    background: #f8f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px rgb(177, 175, 175);
+    margin: calc(50vh - 220px) auto;
+    padding: 22px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+  }
+  form h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: black;
+    border-bottom: 3px solid coral;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid coral;
+    font-size: 15px;
+  }
+  input:focus {
+    border-bottom: 2px solid coral;
+  }
+  p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  form button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  form button:hover {
+    background-color: #78788c;
+    color: black;
+  }
+ 
+
+
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: 	rgb(56,56,56);
+
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  footer p {
+    font-family: Verdana, sans-serif;  
+    color: #b3aeb5;
+    font-size: 15px;
+  }
+
+  .social a{
+    margin-right: 1em;
+    font-size: 180%;
+  }
+  
+ .fa-linkedin{
+    color: #007bb6;
+ }
+
+ .fa-github{
+    color: #000;
+ }
+
+ .fa-instagram{
+     color: #d6249f;
+ }
